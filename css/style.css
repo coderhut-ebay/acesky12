@@ -156,13 +156,13 @@ a:hover {
     font-size: 130px;
 }
 .single-promo.one:after {
-    content: "\f087";
-}
-.single-promo.two:after {
     content: "\f0d1";
 }
+.single-promo.two:after {
+    content: "\f155";
+}
 .single-promo.three:after {
-    content: "\f135";
+    content: "\f087";
 }
 
 /* Product Area */
@@ -244,6 +244,7 @@ a:hover {
 
 .product-description {
 	border-top: 0;
+    margin-bottom: 35px;
 }
 .product-description img {
 	margin-bottom: 25px;
